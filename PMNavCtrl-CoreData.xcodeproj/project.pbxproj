@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B285743A1974C24F00EC2B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28574391974C24F00EC2B36 /* Foundation.framework */; };
+		B285743C1974C24F00EC2B36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285743B1974C24F00EC2B36 /* CoreGraphics.framework */; };
+		B285743E1974C24F00EC2B36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285743D1974C24F00EC2B36 /* UIKit.framework */; };
+		B28574441974C24F00EC2B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B28574421974C24F00EC2B36 /* InfoPlist.strings */; };
+		B28574461974C24F00EC2B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B28574451974C24F00EC2B36 /* main.m */; };
+		B285744A1974C24F00EC2B36 /* PMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B28574491974C24F00EC2B36 /* PMAppDelegate.m */; };
+		B285744C1974C24F00EC2B36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B285744B1974C24F00EC2B36 /* Images.xcassets */; };
+		B28574531974C24F00EC2B36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28574521974C24F00EC2B36 /* XCTest.framework */; };
+		B28574541974C24F00EC2B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28574391974C24F00EC2B36 /* Foundation.framework */; };
+		B28574551974C24F00EC2B36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285743D1974C24F00EC2B36 /* UIKit.framework */; };
+		B285745D1974C24F00EC2B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B285745B1974C24F00EC2B36 /* InfoPlist.strings */; };
+		B285745F1974C24F00EC2B36 /* PMNavCtrl_CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B285745E1974C24F00EC2B36 /* PMNavCtrl_CoreDataTests.m */; };
+		B28574751974C2E900EC2B36 /* ParentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28574681974C2E900EC2B36 /* ParentTableViewController.m */; };
+		B28574761974C2E900EC2B36 /* ChildTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B285746A1974C2E900EC2B36 /* ChildTableViewController.m */; };
+		B28574771974C2E900EC2B36 /* ParentTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B285746B1974C2E900EC2B36 /* ParentTableViewController.xib */; };
+		B28574781974C2E900EC2B36 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B285746D1974C2E900EC2B36 /* WebViewController.m */; };
+		B28574791974C2E900EC2B36 /* ChildTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B285746E1974C2E900EC2B36 /* ChildTableViewController.xib */; };
+		B285747A1974C2E900EC2B36 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B285746F1974C2E900EC2B36 /* WebViewController.xib */; };
+		B285747B1974C2E900EC2B36 /* google-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B28574711974C2E900EC2B36 /* google-logo.png */; };
+		B285747C1974C2E900EC2B36 /* windows-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B28574721974C2E900EC2B36 /* windows-logo.png */; };
+		B285747D1974C2E900EC2B36 /* samsung-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B28574731974C2E900EC2B36 /* samsung-logo.jpeg */; };
+		B285747E1974C2E900EC2B36 /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B28574741974C2E900EC2B36 /* apple-logo.png */; };
+		B28574801974C55500EC2B36 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285747F1974C55500EC2B36 /* CoreData.framework */; };
+		B28574831974C67200EC2B36 /* PMNavCtrl-CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B28574811974C67200EC2B36 /* PMNavCtrl-CoreData.xcdatamodeld */; };
+		B28574861974C7FB00EC2B36 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = B28574851974C7FB00EC2B36 /* Company.m */; };
+		B28574891974C7FC00EC2B36 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = B28574881974C7FC00EC2B36 /* Product.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B28574561974C24F00EC2B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B285742E1974C24F00EC2B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28574351974C24F00EC2B36;
+			remoteInfo = "PMNavCtrl-CoreData";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B28574361974C24F00EC2B36 /* PMNavCtrl-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PMNavCtrl-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28574391974C24F00EC2B36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B285743B1974C24F00EC2B36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B285743D1974C24F00EC2B36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B28574411974C24F00EC2B36 /* PMNavCtrl-CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMNavCtrl-CoreData-Info.plist"; sourceTree = "<group>"; };
+		B28574431974C24F00EC2B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B28574451974C24F00EC2B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B28574471974C24F00EC2B36 /* PMNavCtrl-CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMNavCtrl-CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		B28574481974C24F00EC2B36 /* PMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMAppDelegate.h; sourceTree = "<group>"; };
+		B28574491974C24F00EC2B36 /* PMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMAppDelegate.m; sourceTree = "<group>"; };
+		B285744B1974C24F00EC2B36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B28574511974C24F00EC2B36 /* PMNavCtrl-CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PMNavCtrl-CoreDataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28574521974C24F00EC2B36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B285745A1974C24F00EC2B36 /* PMNavCtrl-CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMNavCtrl-CoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		B285745C1974C24F00EC2B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B285745E1974C24F00EC2B36 /* PMNavCtrl_CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMNavCtrl_CoreDataTests.m; sourceTree = "<group>"; };
+		B28574681974C2E900EC2B36 /* ParentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParentTableViewController.m; path = "PMNavCtrl-CoreData/ParentTableViewController.m"; sourceTree = "<group>"; };
+		B28574691974C2E900EC2B36 /* ParentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParentTableViewController.h; path = "PMNavCtrl-CoreData/ParentTableViewController.h"; sourceTree = "<group>"; };
+		B285746A1974C2E900EC2B36 /* ChildTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildTableViewController.m; path = "PMNavCtrl-CoreData/ChildTableViewController.m"; sourceTree = "<group>"; };
+		B285746B1974C2E900EC2B36 /* ParentTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ParentTableViewController.xib; path = "PMNavCtrl-CoreData/ParentTableViewController.xib"; sourceTree = "<group>"; };
+		B285746C1974C2E900EC2B36 /* ChildTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildTableViewController.h; path = "PMNavCtrl-CoreData/ChildTableViewController.h"; sourceTree = "<group>"; };
+		B285746D1974C2E900EC2B36 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = "PMNavCtrl-CoreData/WebViewController.m"; sourceTree = "<group>"; };
+		B285746E1974C2E900EC2B36 /* ChildTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChildTableViewController.xib; path = "PMNavCtrl-CoreData/ChildTableViewController.xib"; sourceTree = "<group>"; };
+		B285746F1974C2E900EC2B36 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewController.xib; path = "PMNavCtrl-CoreData/WebViewController.xib"; sourceTree = "<group>"; };
+		B28574701974C2E900EC2B36 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = "PMNavCtrl-CoreData/WebViewController.h"; sourceTree = "<group>"; };
+		B28574711974C2E900EC2B36 /* google-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-logo.png"; sourceTree = "<group>"; };
+		B28574721974C2E900EC2B36 /* windows-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "windows-logo.png"; sourceTree = "<group>"; };
+		B28574731974C2E900EC2B36 /* samsung-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "samsung-logo.jpeg"; sourceTree = "<group>"; };
+		B28574741974C2E900EC2B36 /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-logo.png"; sourceTree = "<group>"; };
+		B285747F1974C55500EC2B36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B28574821974C67200EC2B36 /* PMNavCtrl-CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "PMNavCtrl-CoreData.xcdatamodel"; sourceTree = "<group>"; };
+		B28574841974C7FB00EC2B36 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		B28574851974C7FB00EC2B36 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		B28574871974C7FC00EC2B36 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		B28574881974C7FC00EC2B36 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28574331974C24F00EC2B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28574801974C55500EC2B36 /* CoreData.framework in Frameworks */,
+				B285743C1974C24F00EC2B36 /* CoreGraphics.framework in Frameworks */,
+				B285743E1974C24F00EC2B36 /* UIKit.framework in Frameworks */,
+				B285743A1974C24F00EC2B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B285744E1974C24F00EC2B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28574531974C24F00EC2B36 /* XCTest.framework in Frameworks */,
+				B28574551974C24F00EC2B36 /* UIKit.framework in Frameworks */,
+				B28574541974C24F00EC2B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B285742D1974C24F00EC2B36 = {
+			isa = PBXGroup;
+			children = (
+				B285743F1974C24F00EC2B36 /* PMNavCtrl-CoreData */,
+				B28574581974C24F00EC2B36 /* PMNavCtrl-CoreDataTests */,
+				B28574381974C24F00EC2B36 /* Frameworks */,
+				B28574371974C24F00EC2B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28574371974C24F00EC2B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28574361974C24F00EC2B36 /* PMNavCtrl-CoreData.app */,
+				B28574511974C24F00EC2B36 /* PMNavCtrl-CoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28574381974C24F00EC2B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B285747F1974C55500EC2B36 /* CoreData.framework */,
+				B28574391974C24F00EC2B36 /* Foundation.framework */,
+				B285743B1974C24F00EC2B36 /* CoreGraphics.framework */,
+				B285743D1974C24F00EC2B36 /* UIKit.framework */,
+				B28574521974C24F00EC2B36 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B285743F1974C24F00EC2B36 /* PMNavCtrl-CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B2949675197627060000DAC7 /* Initialization */,
+				B2949673197626390000DAC7 /* ViewControllers */,
+				B29496741976265C0000DAC7 /* Model */,
+				B285744B1974C24F00EC2B36 /* Images.xcassets */,
+				B28574401974C24F00EC2B36 /* Supporting Files */,
+			);
+			path = "PMNavCtrl-CoreData";
+			sourceTree = "<group>";
+		};
+		B28574401974C24F00EC2B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B28574711974C2E900EC2B36 /* google-logo.png */,
+				B28574721974C2E900EC2B36 /* windows-logo.png */,
+				B28574731974C2E900EC2B36 /* samsung-logo.jpeg */,
+				B28574741974C2E900EC2B36 /* apple-logo.png */,
+				B28574411974C24F00EC2B36 /* PMNavCtrl-CoreData-Info.plist */,
+				B28574421974C24F00EC2B36 /* InfoPlist.strings */,
+				B28574451974C24F00EC2B36 /* main.m */,
+				B28574471974C24F00EC2B36 /* PMNavCtrl-CoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B28574581974C24F00EC2B36 /* PMNavCtrl-CoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				B285745E1974C24F00EC2B36 /* PMNavCtrl_CoreDataTests.m */,
+				B28574591974C24F00EC2B36 /* Supporting Files */,
+			);
+			path = "PMNavCtrl-CoreDataTests";
+			sourceTree = "<group>";
+		};
+		B28574591974C24F00EC2B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B285745A1974C24F00EC2B36 /* PMNavCtrl-CoreDataTests-Info.plist */,
+				B285745B1974C24F00EC2B36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2949673197626390000DAC7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B28574691974C2E900EC2B36 /* ParentTableViewController.h */,
+				B28574681974C2E900EC2B36 /* ParentTableViewController.m */,
+				B285746B1974C2E900EC2B36 /* ParentTableViewController.xib */,
+				B285746C1974C2E900EC2B36 /* ChildTableViewController.h */,
+				B285746A1974C2E900EC2B36 /* ChildTableViewController.m */,
+				B285746E1974C2E900EC2B36 /* ChildTableViewController.xib */,
+				B28574701974C2E900EC2B36 /* WebViewController.h */,
+				B285746D1974C2E900EC2B36 /* WebViewController.m */,
+				B285746F1974C2E900EC2B36 /* WebViewController.xib */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B29496741976265C0000DAC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B28574811974C67200EC2B36 /* PMNavCtrl-CoreData.xcdatamodeld */,
+				B28574871974C7FC00EC2B36 /* Product.h */,
+				B28574881974C7FC00EC2B36 /* Product.m */,
+				B28574841974C7FB00EC2B36 /* Company.h */,
+				B28574851974C7FB00EC2B36 /* Company.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B2949675197627060000DAC7 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				B28574481974C24F00EC2B36 /* PMAppDelegate.h */,
+				B28574491974C24F00EC2B36 /* PMAppDelegate.m */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28574351974C24F00EC2B36 /* PMNavCtrl-CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28574621974C24F00EC2B36 /* Build configuration list for PBXNativeTarget "PMNavCtrl-CoreData" */;
+			buildPhases = (
+				B28574321974C24F00EC2B36 /* Sources */,
+				B28574331974C24F00EC2B36 /* Frameworks */,
+				B28574341974C24F00EC2B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PMNavCtrl-CoreData";
+			productName = "PMNavCtrl-CoreData";
+			productReference = B28574361974C24F00EC2B36 /* PMNavCtrl-CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B28574501974C24F00EC2B36 /* PMNavCtrl-CoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28574651974C24F00EC2B36 /* Build configuration list for PBXNativeTarget "PMNavCtrl-CoreDataTests" */;
+			buildPhases = (
+				B285744D1974C24F00EC2B36 /* Sources */,
+				B285744E1974C24F00EC2B36 /* Frameworks */,
+				B285744F1974C24F00EC2B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28574571974C24F00EC2B36 /* PBXTargetDependency */,
+			);
+			name = "PMNavCtrl-CoreDataTests";
+			productName = "PMNavCtrl-CoreDataTests";
+			productReference = B28574511974C24F00EC2B36 /* PMNavCtrl-CoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B285742E1974C24F00EC2B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PM;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					B28574501974C24F00EC2B36 = {
+						TestTargetID = B28574351974C24F00EC2B36;
+					};
+				};
+			};
+			buildConfigurationList = B28574311974C24F00EC2B36 /* Build configuration list for PBXProject "PMNavCtrl-CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B285742D1974C24F00EC2B36;
+			productRefGroup = B28574371974C24F00EC2B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28574351974C24F00EC2B36 /* PMNavCtrl-CoreData */,
+				B28574501974C24F00EC2B36 /* PMNavCtrl-CoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B28574341974C24F00EC2B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28574791974C2E900EC2B36 /* ChildTableViewController.xib in Resources */,
+				B285747D1974C2E900EC2B36 /* samsung-logo.jpeg in Resources */,
+				B28574441974C24F00EC2B36 /* InfoPlist.strings in Resources */,
+				B285744C1974C24F00EC2B36 /* Images.xcassets in Resources */,
+				B285747E1974C2E900EC2B36 /* apple-logo.png in Resources */,
+				B285747C1974C2E900EC2B36 /* windows-logo.png in Resources */,
+				B285747B1974C2E900EC2B36 /* google-logo.png in Resources */,
+				B285747A1974C2E900EC2B36 /* WebViewController.xib in Resources */,
+				B28574771974C2E900EC2B36 /* ParentTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B285744F1974C24F00EC2B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B285745D1974C24F00EC2B36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28574321974C24F00EC2B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28574831974C67200EC2B36 /* PMNavCtrl-CoreData.xcdatamodeld in Sources */,
+				B28574761974C2E900EC2B36 /* ChildTableViewController.m in Sources */,
+				B28574781974C2E900EC2B36 /* WebViewController.m in Sources */,
+				B28574751974C2E900EC2B36 /* ParentTableViewController.m in Sources */,
+				B28574461974C24F00EC2B36 /* main.m in Sources */,
+				B28574891974C7FC00EC2B36 /* Product.m in Sources */,
+				B285744A1974C24F00EC2B36 /* PMAppDelegate.m in Sources */,
+				B28574861974C7FB00EC2B36 /* Company.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B285744D1974C24F00EC2B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B285745F1974C24F00EC2B36 /* PMNavCtrl_CoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B28574571974C24F00EC2B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28574351974C24F00EC2B36 /* PMNavCtrl-CoreData */;
+			targetProxy = B28574561974C24F00EC2B36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B28574421974C24F00EC2B36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28574431974C24F00EC2B36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B285745B1974C24F00EC2B36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B285745C1974C24F00EC2B36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B28574601974C24F00EC2B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B28574611974C24F00EC2B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B28574631974C24F00EC2B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMNavCtrl-CoreData/PMNavCtrl-CoreData-Prefix.pch";
+				INFOPLIST_FILE = "PMNavCtrl-CoreData/PMNavCtrl-CoreData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B28574641974C24F00EC2B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMNavCtrl-CoreData/PMNavCtrl-CoreData-Prefix.pch";
+				INFOPLIST_FILE = "PMNavCtrl-CoreData/PMNavCtrl-CoreData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B28574661974C24F00EC2B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PMNavCtrl-CoreData.app/PMNavCtrl-CoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMNavCtrl-CoreData/PMNavCtrl-CoreData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PMNavCtrl-CoreDataTests/PMNavCtrl-CoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B28574671974C24F00EC2B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PMNavCtrl-CoreData.app/PMNavCtrl-CoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMNavCtrl-CoreData/PMNavCtrl-CoreData-Prefix.pch";
+				INFOPLIST_FILE = "PMNavCtrl-CoreDataTests/PMNavCtrl-CoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28574311974C24F00EC2B36 /* Build configuration list for PBXProject "PMNavCtrl-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28574601974C24F00EC2B36 /* Debug */,
+				B28574611974C24F00EC2B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28574621974C24F00EC2B36 /* Build configuration list for PBXNativeTarget "PMNavCtrl-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28574631974C24F00EC2B36 /* Debug */,
+				B28574641974C24F00EC2B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28574651974C24F00EC2B36 /* Build configuration list for PBXNativeTarget "PMNavCtrl-CoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28574661974C24F00EC2B36 /* Debug */,
+				B28574671974C24F00EC2B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B28574811974C67200EC2B36 /* PMNavCtrl-CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B28574821974C67200EC2B36 /* PMNavCtrl-CoreData.xcdatamodel */,
+			);
+			currentVersion = B28574821974C67200EC2B36 /* PMNavCtrl-CoreData.xcdatamodel */;
+			path = "PMNavCtrl-CoreData.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B285742E1974C24F00EC2B36 /* Project object */;
+}
